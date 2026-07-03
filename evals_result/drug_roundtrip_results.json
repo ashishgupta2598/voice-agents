@@ -1,0 +1,281 @@
+{
+  "test_date": "2026-07-03T16:03:38.754389",
+  "voice_id": "e07c00bc-4134-4eae-9ea4-1a55fb45746b",
+  "total_drugs": 30,
+  "passed": 24,
+  "failed": 6,
+  "errors": 0,
+  "pass_rate": "80.0%",
+  "results": [
+    {
+      "original": "aspirin",
+      "transcribed": "The patient is currently taking aspirin.",
+      "exact_match": false,
+      "contained_match": true,
+      "passed": true,
+      "tts_input": "The patient is currently taking aspirin.",
+      "error": null
+    },
+    {
+      "original": "ibuprofen",
+      "transcribed": "The patient is currently taking ibuprofen.",
+      "exact_match": false,
+      "contained_match": true,
+      "passed": true,
+      "tts_input": "The patient is currently taking ibuprofen.",
+      "error": null
+    },
+    {
+      "original": "metformin",
+      "transcribed": "The patient is currently taking metformin,",
+      "exact_match": false,
+      "contained_match": true,
+      "passed": true,
+      "tts_input": "The patient is currently taking metformin.",
+      "error": null
+    },
+    {
+      "original": "insulin",
+      "transcribed": "The patient is currently taking insulin.",
+      "exact_match": false,
+      "contained_match": true,
+      "passed": true,
+      "tts_input": "The patient is currently taking insulin.",
+      "error": null
+    },
+    {
+      "original": "amoxicillin",
+      "transcribed": "The patient is currently taking amoxicillin.",
+      "exact_match": false,
+      "contained_match": true,
+      "passed": true,
+      "tts_input": "The patient is currently taking amoxicillin.",
+      "error": null
+    },
+    {
+      "original": "prednisone",
+      "transcribed": "The patient is currently taking prednisone.",
+      "exact_match": false,
+      "contained_match": true,
+      "passed": true,
+      "tts_input": "The patient is currently taking prednisone.",
+      "error": null
+    },
+    {
+      "original": "omeprazole",
+      "transcribed": "The patient is currently taking Omprazole.",
+      "exact_match": false,
+      "contained_match": false,
+      "passed": false,
+      "tts_input": "The patient is currently taking omeprazole.",
+      "error": null
+    },
+    {
+      "original": "losartan",
+      "transcribed": "The patient is currently taking Lusartan.",
+      "exact_match": false,
+      "contained_match": false,
+      "passed": false,
+      "tts_input": "The patient is currently taking losartan.",
+      "error": null
+    },
+    {
+      "original": "lisinopril",
+      "transcribed": "The patient is currently taking lisinopril.",
+      "exact_match": false,
+      "contained_match": true,
+      "passed": true,
+      "tts_input": "The patient is currently taking lisinopril.",
+      "error": null
+    },
+    {
+      "original": "atorvastatin",
+      "transcribed": "The patient is currently taking adivistatin.",
+      "exact_match": false,
+      "contained_match": false,
+      "passed": false,
+      "tts_input": "The patient is currently taking atorvastatin.",
+      "error": null
+    },
+    {
+      "original": "metoprolol",
+      "transcribed": "The patient is currently taking metoprolol.",
+      "exact_match": false,
+      "contained_match": true,
+      "passed": true,
+      "tts_input": "The patient is currently taking metoprolol.",
+      "error": null
+    },
+    {
+      "original": "amlodipine",
+      "transcribed": "The patient is currently taking amlodipine.",
+      "exact_match": false,
+      "contained_match": true,
+      "passed": true,
+      "tts_input": "The patient is currently taking amlodipine.",
+      "error": null
+    },
+    {
+      "original": "sertraline",
+      "transcribed": "The patient is currently taking sertraline.",
+      "exact_match": false,
+      "contained_match": true,
+      "passed": true,
+      "tts_input": "The patient is currently taking sertraline.",
+      "error": null
+    },
+    {
+      "original": "gabapentin",
+      "transcribed": "The patient is currently taking gabapentin.",
+      "exact_match": false,
+      "contained_match": true,
+      "passed": true,
+      "tts_input": "The patient is currently taking gabapentin.",
+      "error": null
+    },
+    {
+      "original": "acetaminophen",
+      "transcribed": "The patient is currently taking acetaminophen.",
+      "exact_match": false,
+      "contained_match": true,
+      "passed": true,
+      "tts_input": "The patient is currently taking acetaminophen.",
+      "error": null
+    },
+    {
+      "original": "clopidogrel",
+      "transcribed": "The patient is currently taking clopidogrel.",
+      "exact_match": false,
+      "contained_match": true,
+      "passed": true,
+      "tts_input": "The patient is currently taking clopidogrel.",
+      "error": null
+    },
+    {
+      "original": "pantoprazole",
+      "transcribed": "The patient is currently taking pantoprazole.",
+      "exact_match": false,
+      "contained_match": true,
+      "passed": true,
+      "tts_input": "The patient is currently taking pantoprazole.",
+      "error": null
+    },
+    {
+      "original": "montelukast",
+      "transcribed": "The patient is currently taking Montelukast.",
+      "exact_match": false,
+      "contained_match": true,
+      "passed": true,
+      "tts_input": "The patient is currently taking montelukast.",
+      "error": null
+    },
+    {
+      "original": "azithromycin",
+      "transcribed": "The patient is currently taking azithromycin.",
+      "exact_match": false,
+      "contained_match": true,
+      "passed": true,
+      "tts_input": "The patient is currently taking azithromycin.",
+      "error": null
+    },
+    {
+      "original": "albuterol",
+      "transcribed": "The patient is currently taking albuterol.",
+      "exact_match": false,
+      "contained_match": true,
+      "passed": true,
+      "tts_input": "The patient is currently taking albuterol.",
+      "error": null
+    },
+    {
+      "original": "hydroxychloroquine",
+      "transcribed": "The patient is currently taking hydroxychloroquine.",
+      "exact_match": false,
+      "contained_match": true,
+      "passed": true,
+      "tts_input": "The patient is currently taking hydroxychloroquine.",
+      "error": null
+    },
+    {
+      "original": "levothyroxine",
+      "transcribed": "The patient is currently taking levothyroxine.",
+      "exact_match": false,
+      "contained_match": true,
+      "passed": true,
+      "tts_input": "The patient is currently taking levothyroxine.",
+      "error": null
+    },
+    {
+      "original": "esomeprazole",
+      "transcribed": "The patient is currently taking esomprezole.",
+      "exact_match": false,
+      "contained_match": false,
+      "passed": false,
+      "tts_input": "The patient is currently taking esomeprazole.",
+      "error": null
+    },
+    {
+      "original": "rosuvastatin",
+      "transcribed": "The patient is currently taking rosuvastatin.",
+      "exact_match": false,
+      "contained_match": true,
+      "passed": true,
+      "tts_input": "The patient is currently taking rosuvastatin.",
+      "error": null
+    },
+    {
+      "original": "dexamethasone",
+      "transcribed": "The patient is currently taking dexamethasone.",
+      "exact_match": false,
+      "contained_match": true,
+      "passed": true,
+      "tts_input": "The patient is currently taking dexamethasone.",
+      "error": null
+    },
+    {
+      "original": "fluticasone",
+      "transcribed": "The patient is currently taking fluticasone.",
+      "exact_match": false,
+      "contained_match": true,
+      "passed": true,
+      "tts_input": "The patient is currently taking fluticasone.",
+      "error": null
+    },
+    {
+      "original": "methylprednisolone",
+      "transcribed": "The patient is currently taking methylprednisolone,",
+      "exact_match": false,
+      "contained_match": true,
+      "passed": true,
+      "tts_input": "The patient is currently taking methylprednisolone.",
+      "error": null
+    },
+    {
+      "original": "ciprofloxacin",
+      "transcribed": "The patient is currently taking ciprofloxacin.",
+      "exact_match": false,
+      "contained_match": true,
+      "passed": true,
+      "tts_input": "The patient is currently taking ciprofloxacin.",
+      "error": null
+    },
+    {
+      "original": "benzonatate",
+      "transcribed": "The patient is currently taking benzinatate.",
+      "exact_match": false,
+      "contained_match": false,
+      "passed": false,
+      "tts_input": "The patient is currently taking benzonatate.",
+      "error": null
+    },
+    {
+      "original": "cyclobenzaprine",
+      "transcribed": "The patient is currently taking cyclobenzeprine.",
+      "exact_match": false,
+      "contained_match": false,
+      "passed": false,
+      "tts_input": "The patient is currently taking cyclobenzaprine.",
+      "error": null
+    }
+  ]
+}

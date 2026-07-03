@@ -1,0 +1,8 @@
+[app]
+name = "heidi-previsit-intake-agent"
+
+[build]
+cmd = "uv sync"
+
+[run]
+cmd = "uv run python main.py"
