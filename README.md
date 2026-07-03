@@ -3,7 +3,11 @@
 A voice agent built on Cartesia Line that calls patients before their appointment to collect intake information (reason for visit, medications, allergies) so their doctor is prepared.
 
 Check Sample Conversation Here: [test_audio.mp4](test_audio_output/test_audio.mp4)
+## Docs
 
+- [EVAL_STRATEGY.md](docs/EVAL_STRATEGY.md) -- what we measure, why, thresholds, what we left out
+- [EVAL_ITERATIONS.md](docs/EVAL_ITERATIONS.md) -- 3 iteration runs, failure analysis, drug name test results
+- [WEAKNESSES.md](docs/WEAKNESSES.md) -- known gaps and hardening priorities
 ## How to run
 
 ```bash
@@ -75,9 +79,5 @@ Drug name voice pipeline test: 24/30 (80%) of medication names survive TTS to ST
 - One medication at a time: prevents patients from rushing through a list the agent can't parse accurately.
 - Two-layer eval: keyword matching for speed and determinism, LLM-as-judge for catching subtle violations. Both must pass.
 
-## Docs
 
-- [EVAL_STRATEGY.md](docs/EVAL_STRATEGY.md) -- what we measure, why, thresholds, what we left out
-- [EVAL_ITERATIONS.md](docs/EVAL_ITERATIONS.md) -- 3 iteration runs, failure analysis, drug name test results
-- [WEAKNESSES.md](docs/WEAKNESSES.md) -- known gaps and hardening priorities
 
