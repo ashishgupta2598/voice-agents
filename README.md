@@ -46,7 +46,7 @@ Calls the patient, verifies identity via date of birth, then collects:
 
 Reads back a summary, confirms with the patient, saves structured data via save_intake_summary.
 
-The agent never diagnoses, never advises on medications, escalates emergencies to 911, and refuses to share other patients' info. If a patient doesn't know their dosage, it records "unknown" rather than guessing.
+The agent never diagnoses, never advises on medications, escalates emergencies, and refuses to share other patients' info. If a patient doesn't know their dosage, it records "unknown" rather than guessing.
 
 ## Eval results (Run 3, 130 tests)
 
