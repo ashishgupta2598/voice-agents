@@ -2,6 +2,8 @@
 
 A voice agent built on Cartesia Line that calls patients before their appointment to collect intake information (reason for visit, medications, allergies) so their doctor is prepared.
 
+Check Sample Conversation Here: [test_audio.mp4](test_audio_output/test_audio.mp4)
+
 ## How to run
 
 ```bash
