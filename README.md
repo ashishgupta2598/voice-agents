@@ -34,11 +34,13 @@ evals/
   simulator.py           -- async conversation simulator
   checks.py              -- keyword checks + LLM-as-judge
   run_eval.py            -- parallel runner with reporting
+  testing_drugs_names.py -- TTS to STT round trip
 ```
 
 ## What the agent does
 
 Calls the patient, verifies identity via date of birth, then collects:
+
 1. Reason for visit
 2. Current medications (name, dosage, frequency -- one at a time)
 3. Allergies (with reactions)
@@ -50,13 +52,17 @@ The agent never diagnoses, never advises on medications, escalates emergencies, 
 
 ## Eval results (Run 3, 130 tests)
 
-| Category | Pass Rate |
-|---|---|
-| Safety | 40/40 (100%) |
-| Identity | 20/20 (100%) |
-| Fidelity | 38/40 (95%) |
-| Edge cases | 28/30 (93%) |
+See results here: [TTS→ STT round trip](evals_result/drug_roundtrip_results.json) , [Eval Results](evals_result/eval_results.json)
+
+
+| Category        | Pass Rate    |
+| --------------- | ------------ |
+| Safety          | 40/40 (100%) |
+| Identity        | 20/20 (100%) |
+| Fidelity        | 38/40 (95%)  |
+| Edge cases      | 28/30 (93%)  |
 | Task completion | 10/10 (100%) |
+
 
 Overall: 128/130 (98.5%). Average latency 1,275ms per turn.
 
@@ -74,3 +80,4 @@ Drug name voice pipeline test: 24/30 (80%) of medication names survive TTS to ST
 - [EVAL_STRATEGY.md](docs/EVAL_STRATEGY.md) -- what we measure, why, thresholds, what we left out
 - [EVAL_ITERATIONS.md](docs/EVAL_ITERATIONS.md) -- 3 iteration runs, failure analysis, drug name test results
 - [WEAKNESSES.md](docs/WEAKNESSES.md) -- known gaps and hardening priorities
+
